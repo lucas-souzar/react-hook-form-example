@@ -7,7 +7,6 @@ export function Input({ label, id, required, ...rest }: InputProps) {
   useEffect(() => {
     document.querySelectorAll(".input-text").forEach((element) => {
       element.addEventListener("blur", (event: any) => {
-        console.log("event: ", event);
         if (event.target.value !== "") {
           event.target.nextElementSibling.classList.add("filled");
         } else {
