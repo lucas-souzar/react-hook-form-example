@@ -20,6 +20,7 @@ export const FormGroup = styled.div`
 `;
 
 export const ErrorMessage = styled.span`
+  padding-left: 0.5rem;
   color: #fd5977;
   font-size: 10px;
 `;
